@@ -70,6 +70,13 @@
       box-shadow:
         0 0 0 1px rgba(255, 255, 255, 0.06),
         0 0 18px rgba(0, 0, 0, 0.9);
+      overflow: hidden;
+    }
+
+    .nav-logo-badge img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .nav-links {
@@ -399,7 +406,9 @@
     <div class="container">
       <nav class="nav">
         <a href="#" class="nav-logo">
-          <div class="nav-logo-badge"></div>
+          <div class="nav-logo-badge">
+            <img src="cropped_circle_image.png" alt="Knight Secured">
+          </div>
           Knight Secured
         </a>
         <div class="nav-links">
@@ -415,12 +424,7 @@
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-logo-wrap">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="100" cy="100" r="90" fill="#1a1d23" stroke="#3f4b59" stroke-width="2"/>
-          <path d="M100 40 L130 80 L120 80 L120 120 L80 120 L80 80 L70 80 Z" fill="#4a5568" stroke="#686f79" stroke-width="2"/>
-          <rect x="85" y="125" width="30" height="35" rx="4" fill="#3f4b59" stroke="#686f79" stroke-width="1.5"/>
-          <circle cx="100" cy="65" r="8" fill="#5a6673"/>
-        </svg>
+        <img src="cropped_circle_image.png" alt="Knight Secured Logo" />
       </div>
       <h1 class="hero-title">Knight Secured</h1>
       <p class="hero-tagline-main">Elevate Your Security Skills</p>
